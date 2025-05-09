@@ -12,7 +12,7 @@ const ADMIN_USERNAME = 'admin';
 const ADMIN_PASSWORD = 'password123';
 
 // MongoDB connection setup
-const uri = "mongodb+srv://asrarr:asrarr@asrarr.vyzyafk.mongodb.net/?retryWrites=true&w=majority&appName=asrarr";
+const uri = "mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority";
 let db;
 
 // Connect to MongoDB and start the server only after the connection is established
